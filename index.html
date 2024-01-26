@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadiantLocks - Hair Oil Company</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        nav li {
+            font-weight: 550;
+            margin: 0 10px;
+        }
+
+        nav li a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header title="MainPage">
+        <h1>RadiantLocks<sup>TM</sup></h1>
+        <p style="font-size: smaller; text-align: center;">Unlock the Radiance Within Your Hair. Embrace the Beauty of
+            Healthy, Luxurious
+            Locks with RadiantLocks™, Your Ultimate Hair Care Elixir.</p>
+        <nav>
+            <ul>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#contactus">CONTACT US</a></li>
+                <li><a href="#location">LOCATION</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="/img2.jpg" alt="hairoil" height="198" width="280px">
+            <figcaption>Ashwagandha Mandara - Hair Oil</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main title="content">
+        <article title="About" id="aboutus">
+            <h3>About US</h3>
+            <p style="text-align:center" ;>"Indulge in the unparalleled luxury of RadiantLocks, our exquisite hair care
+                elixir designed to transform
+                your tresses into a radiant masterpiece. Enriched with a harmonious blend of natural ingredients,
+                RadiantLocks is more than just a hair oil – it's a rejuvenating experience. Immerse yourself in the
+                captivating aroma as this carefully crafted formula deeply nourishes and revitalizes your hair, where
+                every drop is a celebration of your hair's natural radiance."</p>
+
+            <figure>
+                <img src="/founder.jpeg" alt="Founder" height="160" width="100">
+                <figcaption style="font-size: x-small;">Founder of RadiantLocks</figcaption>
+            </figure>
+            <aside>
+                <h4>Our Legacy</h4>
+                <details>
+                    <summary>When did RadiantLocks Founded?</summary>
+                    <p>"<strong>RadiantLocks</strong>, founded on October 15, 2010, is the brainchild of beauty
+                        enthusiast and herbalist Olivia Summers. Founded with a passion for enhancing natural beauty,
+                        RadiantLocks has quickly become a beloved hair care essential, celebrated for its transformative
+                        effects on hair health and radiance."</p>
+                </details>
+            </aside>
+            <p><a href="#">Back to Top</a></p>
+        </article>
+        <hr>
+        <section title="Products" id="products">
+            <h3>Products</h3>
+            <figure>
+                <img src="/img1.jpg" alt="" height="240" width="160">
+                <figcaption>Amalaki Oil</figcaption>
+                <img src="/img3.jpg" alt="" height="240" width="300">
+                <figcaption>Sariva Elixir</figcaption>
+                <img src="/img4.avif"
+                    alt="" height="240" width="260">
+                <figcaption>Bhringaraj Blend</figcaption>
+            </figure>
+
+            <table border="black">
+                <thead>
+                    <tr>
+                        <th>PRODUCTS</th>
+                        <th>PRICE $</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amalaki Oil</td>
+                        <td>$ 10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Sariva Elixir</td>
+                        <td>$ 9.00</td>
+                    </tr>
+                    <tr>
+                        <td>Bhringaraj Blend</td>
+                        <td>$ 15.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><a href="#">Back to Top</a></p>
+
+        </section>
+        <hr>
+        <section title="Contact" id="contactus">
+            <h3>Contact US</h3>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend><b>Send A Hello!</b></legend>
+                    <div>
+                        <p>
+                            <label for="Name">Name : </label>
+                            <input type="text" name="Name" id="Name" placeholder="Enter Name" required>
+                        </p>
+                        <p>
+                            <label for="Email">Email : </label>
+                            <input type="email" name="Email" id="Email" placeholder="Enter Email" required>
+                        </p>
+                        <p>Gender :</p>
+                        <input type="radio" name="Gender" id="male" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="Gender" id="female" value="Female">
+                        <label for="female">Female</label>
+                        </p>
+                        <p>
+                            <label for="country">Country :</label>
+                            <select name="Country" id="country">
+                                <option value="IND">India</option>
+                                <option value="SRI">Srilanka</option>
+                                <option value="PAK">Pakistan</option>
+                                <option value="USA">United States of America</option>
+                                <option value="UK">United Kingdom</option>
+                                <option value="USSR">Russia</option>
+                                <option value="CHI">China</option>
+                            </select>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="confirm" id="confirm">
+                            <label for="confirm">Confirm Your Acceptance</label>
+                        </p>
+                        <p>
+                            <label for="message">Message : </label>
+                            <br>
+                            <textarea name="Feedback" id="message" cols="13" rows="5"></textarea>
+                        </p>
+
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+
+                        <p>
+                            <label for="stars">FeedBack Stars (1-5) :</label>
+                            <input type="range" name="stars" id="stars" min="1" max="5">
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
+            <p><a href="#">Back to Top</a></p>
+        </section>
+    </main>
+    <hr>
+
+    <footer title="footer" id="location">
+        <h3>Our Location</h3>
+
+        <section title="address">
+            <address>
+                <b>RadiantLocks Headquarters</b>
+                123 Serenity Lane,
+                Belleview Springs, Radiant City
+                Natureland, NL 56789.
+                United Elegance.
+                <br>
+                Customer Care: <a href="tel">+1 (555) 123-4567</a>
+            </address>
+        </section>
+        <p>
+            Copyrights &copy; all rights reserved RadiantLocks™
+        </p>
+        <p><a href="#">Back to Top</a></p>
+    </footer>
+
+</body>
+
+</html>
